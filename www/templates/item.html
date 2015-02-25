@@ -1,0 +1,32 @@
+<!--Item details Screen-->
+<ion-view view-title="Item Details" ng-init='getItemBean()'>
+  <ion-content>
+     <div class="list card">
+
+      <div class="item item-avatar">
+        <img src="img/{{itemBean.image}}">
+        <h2>{{itemBean.name}}</h2>
+        <p>Price: {{itemBean.price | currency:"$"}}</p>
+      </div>
+
+      <div class="item item-body">
+        <img src="img/jacket.jpg">
+        <p>
+          Item Description
+        </p>
+        
+      </div>
+
+      <div class="item row">
+          <div class='col col-25'> <span  class='margin-10'>Quantity:</span><input type="number" class='margin-10' ng-model='itemBean.quantity' ng-change="calculateTotal()" min="1"></div>
+          <div class='col'><p ng-model='total' class="margin-10">Total:{{total | currency:"$"}}</p> </div>
+                   
+      </div>
+      <button class="button margin-10" ng-disabled='disableAddCart' ng-click='addToCart()'>
+             Add to cart
+      </button>
+      
+
+    </div> 	 
+  </ion-content>
+</ion-view>

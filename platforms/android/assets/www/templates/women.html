@@ -1,0 +1,19 @@
+<!--Women Category items screen-->
+<ion-view view-title="Women Accessories">
+  <ion-content>
+  	 <div class="list">
+
+        <a ng-repeat="item in dataFromServer | filter:{ category: 'Women Accessories'}:true" 
+           href="#/app/item/{{item.id}}"
+           class="item item-thumbnail-left">
+
+          <img src="img/{{item.image}}">
+          <div class='center'> 
+          <h2>{{ item.name }}</h2>
+          <h4>Price: {{item.price | currency:"$"}}</h4>
+          </div>
+        </a>
+
+     </div>
+  </ion-content>
+</ion-view>

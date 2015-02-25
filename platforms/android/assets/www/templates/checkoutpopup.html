@@ -1,0 +1,18 @@
+<!--Check out popup items screen-->
+<div class="list">
+<a ng-repeat="item in itemsInCart track by $index" 
+           href="#"
+           class="item item-thumbnail-left">
+
+          <img src="img/{{item.image}}">
+          <div class='center'> 
+          <h2>{{ item.name }}</h2>
+          <h4>{{ item.category }}</h2>
+          <h4 ng-init='total = item.quantity*item.price'>Price: {{item.quantity}}*{{item.price | currency:"$"}}=<br>{{total | currency:"$"}}</h4>
+          </div>
+          
+</a>
+</div>
+<div align='right'>Total:{{getTotal() | currency:"$"}}</div>
+
+

@@ -1,0 +1,15 @@
+<!--Children Category items screen-->
+<ion-view view-title="Children Accessories">
+  <ion-content>
+  	<a ng-repeat="item in dataFromServer | filter:{ category: 'Children Accessories'}:true" 
+           href="#/app/item/{{item.id}}"
+           class="item item-thumbnail-left">
+
+          <img src="img/{{item.image}}">
+          <div class='center'> 
+          <h2>{{ item.name }}</h2>
+          <h4>Price: {{item.price | currency:"$"}}</h4>
+          </div>
+     </a>
+  </ion-content>
+</ion-view>
