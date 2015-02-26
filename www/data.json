@@ -94,8 +94,93 @@
       "id": 15,
       "name": "Sun Glasses",
       "category": "Men Accessories",
-      "price": 20,
+      "price": 4,
+      "image": "ionic.png"
+    },
+    {
+      "id": 16,
+      "name": "Sun Glasses",
+      "category": "Women Accessories",
+      "price": 4,
+      "image": "ionic.png"
+    },
+    {
+      "id": 17,
+      "name": "Jeans",
+      "category": "Women Accessories",
+      "price": 10,
+      "image": "ionic.png"
+    },
+    {
+      "id": 18,
+      "name": "T-SHIRT",
+      "category": "Women Accessories",
+      "price": 30,
+      "image": "ionic.png"
+    },
+    {
+      "id": 19,
+      "name": "SHIRT",
+      "category": "Women Accessories",
+      "price": 15,
+      "image": "ionic.png"
+    },
+    {
+      "id": 20,
+      "name": "Toy 1",
+      "category": "Children Accessories",
+      "price": 6,
+      "image": "ionic.png"
+    },
+    {
+      "id": 21,
+      "name": "Toy 2",
+      "category": "Children Accessories",
+      "price": 15,
+      "image": "ionic.png"
+    },
+    {
+      "id": 22,
+      "name": "Toy 3",
+      "category": "Children Accessories",
+      "price": 30,
+      "image": "ionic.png"
+    },
+    {
+      "id": 23,
+      "name": "Toy 4",
+      "category": "Children Accessories",
+      "price": 3,
+      "image": "ionic.png"
+    },
+    {
+      "id": 24,
+      "name": "Cricket Bat",
+      "category": "Sports Accessories",
+      "price": 3,
+      "image": "ionic.png"
+    },
+    {
+      "id": 25,
+      "name": "Cricket Ball",
+      "category": "Sports Accessories",
+      "price": 3,
+      "image": "ionic.png"
+    },
+    {
+      "id": 26,
+      "name": "Basket ball",
+      "category": "Sports Accessories",
+      "price": 6,
+      "image": "ionic.png"
+    },
+    {
+      "id": 27,
+      "name": "Pool table",
+      "category": "Sports Accessories",
+      "price": 30,
       "image": "ionic.png"
     }
+
 
   ]

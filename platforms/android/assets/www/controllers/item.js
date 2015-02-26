@@ -1,7 +1,7 @@
 /*
 Item details controller
 */
-appControllerModule.controller('ItemCtrl',function($scope, $ionicNavBarDelegate, $state , $stateParams, $filter, $ionicPopup,$ionicHistory) {
+appControllerModule.controller('ItemCtrl',function($scope, $ionicNavBarDelegate, $state , $stateParams, $filter, $ionicPopup,$ionicHistory, $translate) {
     
     $scope.itemBean = {};
     $scope.total = 0;
@@ -34,7 +34,7 @@ appControllerModule.controller('ItemCtrl',function($scope, $ionicNavBarDelegate,
         $scope.$parent.$apply(); 
         var myNewObj = angular.copy($scope.itemBean);
         $scope.itemsInCart.push(myNewObj);
-        $scope.showAlert('Product added to cart.',function callback () {
+        $scope.showAlert($translate.instant("PRODUCT_ADDED_TO_CART"),function callback () {
             $ionicHistory.goBack();
         });
     }

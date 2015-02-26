@@ -1,7 +1,7 @@
 <!--Invoice Screen-->
-<ion-view view-title="Invoice">
+<ion-view view-title="{{'INVOICE' | translate }}">
   <ion-content>
-    <div align='right'>Invoice No: {{invoiceNumber}}</div>
+    <div align='right'>{{'INVOICE_NO' | translate }} {{invoiceNumber}}</div>
   	 <div class="list">
         <div  class="row item item-input" ng-repeat="item in itemsInCart track by $index">
           <div class="col col-20"><img align='middle' src="img/{{item.image}}" style="width:100%;height:50%"></div>
@@ -9,7 +9,8 @@
           <div class="col"><h2 class='center-vertical' align='right' ng-init='total = item.quantity*item.price'>{{total | currency:"$"}}</h2></div>          
         </div>
      </div>
-     <div align='right'>Total:{{getTotal() | currency:"$"}}</div>
-         
+     <div align='right'>{{'TOTAL' | translate }}:{{getTotal() | currency:"$"}}</div>
+     <div align='right'>{{'DISCOUNT' | translate }}:{{calculateDiscount() | currency:"$"}}</div>
+     <div align='right'>{{'FINAL_AMOUNT' | translate }}:{{getTotal() - calculateDiscount() | currency:"$"}}</div>   
   </ion-content>
 </ion-view>

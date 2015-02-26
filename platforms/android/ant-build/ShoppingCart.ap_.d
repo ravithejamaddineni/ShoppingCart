@@ -37,6 +37,7 @@ C:\Users\Venkanna\ShoppingCart\platforms\android\assets\www\data.json \
 C:\Users\Venkanna\ShoppingCart\platforms\android\assets\www\img \
 C:\Users\Venkanna\ShoppingCart\platforms\android\assets\www\index.html \
 C:\Users\Venkanna\ShoppingCart\platforms\android\assets\www\js \
+C:\Users\Venkanna\ShoppingCart\platforms\android\assets\www\languages \
 C:\Users\Venkanna\ShoppingCart\platforms\android\assets\www\lib \
 C:\Users\Venkanna\ShoppingCart\platforms\android\assets\www\plugins \
 C:\Users\Venkanna\ShoppingCart\platforms\android\assets\www\templates \
@@ -51,6 +52,7 @@ C:\Users\Venkanna\ShoppingCart\platforms\android\assets\www\img\ionic.png \
 C:\Users\Venkanna\ShoppingCart\platforms\android\assets\www\img\jacket.jpg \
 C:\Users\Venkanna\ShoppingCart\platforms\android\assets\www\js\app.js \
 C:\Users\Venkanna\ShoppingCart\platforms\android\assets\www\js\controllers.js \
+C:\Users\Venkanna\ShoppingCart\platforms\android\assets\www\languages\locale-en_US.json \
 C:\Users\Venkanna\ShoppingCart\platforms\android\assets\www\lib\ionic \
 C:\Users\Venkanna\ShoppingCart\platforms\android\assets\www\lib\ionic\css \
 C:\Users\Venkanna\ShoppingCart\platforms\android\assets\www\lib\ionic\fonts \
@@ -77,6 +79,10 @@ C:\Users\Venkanna\ShoppingCart\platforms\android\assets\www\lib\ionic\js\angular
 C:\Users\Venkanna\ShoppingCart\platforms\android\assets\www\lib\ionic\js\angular\angular-resource.min.js \
 C:\Users\Venkanna\ShoppingCart\platforms\android\assets\www\lib\ionic\js\angular\angular-sanitize.js \
 C:\Users\Venkanna\ShoppingCart\platforms\android\assets\www\lib\ionic\js\angular\angular-sanitize.min.js \
+C:\Users\Venkanna\ShoppingCart\platforms\android\assets\www\lib\ionic\js\angular\angular-translate-loader-url.js \
+C:\Users\Venkanna\ShoppingCart\platforms\android\assets\www\lib\ionic\js\angular\angular-translate-loader-url.min.js \
+C:\Users\Venkanna\ShoppingCart\platforms\android\assets\www\lib\ionic\js\angular\angular-translate.js \
+C:\Users\Venkanna\ShoppingCart\platforms\android\assets\www\lib\ionic\js\angular\angular-translate.min.js \
 C:\Users\Venkanna\ShoppingCart\platforms\android\assets\www\lib\ionic\js\angular\angular.js \
 C:\Users\Venkanna\ShoppingCart\platforms\android\assets\www\lib\ionic\js\angular\angular.min.js \
 C:\Users\Venkanna\ShoppingCart\platforms\android\assets\www\lib\ionic\js\angular-ui\angular-ui-router.js \

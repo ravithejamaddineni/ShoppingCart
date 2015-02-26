@@ -1,16 +1,32 @@
 <!--Men Category items screen-->
-<ion-view view-title="Men Accessories">
+<ion-view view-title="{{'MEN_ACCESSORIES' | translate }}">
   <ion-content>
+      </br>
+        <div align='right'>
+          {{'FILTER_BY_PRICE' | translate }}
+          <select ng-init='resetFilters()' ng-model='filter_type' ng-change='updateListFilters(filter_type)'>
+            <option selected>{{'FILTER_ALL' | translate }}</option>
+            <option>{{'FILTER_HIGH_TO_LOW' | translate }}</option>
+            <option>{{'FILTER_LOW_TO_HIGH' | translate }}</option>
+            <option>{{'FILTER_LESS_THAN_5' | translate }}</option>
+            <option>{{'FILTER_5_TO_10' | translate }}</option>
+            <option>{{'FILTER_10_TO_15' | translate }}</option>
+            <option>{{'FILTER_15_TO_20' | translate }}</option>
+            <option>{{'FILTER_OVER_20' | translate }}</option>
+          </select>
+        </div>
+      </br>
+      </br>
   	 <div class="list">
 
-        <a ng-repeat="item in dataFromServer | filter:{ category: 'Men Accessories'}:true" 
+        <a ng-repeat="item in dataFromServer | matchPriceRange:filter_type | filter:{ category: 'Men Accessories'}:true | orderBy:filterCriteria:filterReverse" 
            href="#/app/item/{{item.id}}"
            class="item item-thumbnail-left">
 
           <img src="img/{{item.image}}">
           <div class='center'> 
           <h2>{{ item.name }}</h2>
-          <h4>Price: {{item.price | currency:"$"}}</h4>
+          <h4>{{'PRICE' | translate }}: {{item.price | currency:"$"}}</h4>
           </div>
         </a>
 
